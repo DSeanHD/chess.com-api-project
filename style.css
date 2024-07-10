@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    background-image: url("images/board-background.webp");
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    margin-bottom: 5vh;
+}
+
+h2 {
+    margin-bottom: 3vh;
+}
+
+#puzzle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(146, 71, 0);
+    margin-bottom: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#display-daily-puzzle h2,  #display-daily-puzzle p {
+    text-align: center;
+}
+
+#search-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(38, 121, 0);
+    min-height: 500px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vh;
+    width: 100%;
+}
+
+#search input {
+    width: 6%;
+    transition: 0.3s;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px;
+    outline: none;
+    /*background-image: url("images/board-background.webp");*/
+}
+
+#search input:focus {
+    width: 30%;
+    transition: 0.5s;
+}
+
+#search button {
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px;
+    background-color: rgb(146, 58, 0);
+    color: white;
+}
+
+#display-data {
+    text-align: center;
+}
+
+#display-data > * {
+    margin-bottom: 20px;
+}
+
+#display-data a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#display-data a:hover {
+    color: white;
+}
+
+.title {
+    background-color: rgb(146, 58, 0);
+    padding: 5px;
+    color: white;
+    border-radius: 4px;
+}
+
+.rapid {
+    background-color: rgb(0, 190, 0);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.blitz {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 195, 255);
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.bullet {
+    background-color: rgb(255, 193, 123);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.rapid > *, .blitz > *, .bullet > * {
+    margin-bottom: 16px;
+}

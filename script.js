@@ -1,15 +1,3 @@
-// Features for this app
-// 1) Allow the user to search for a Chess.com username
-// 2) Show the following stats:
-//  - Avatar
-//  - Name
-//  - Username
-//  - Followers
-//  - Country
-//  - League
-//  - Ratings and Win/Loss/Draw Record
-// 3) Show the Daily Puzzle
-
 const userInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
 const displayData = document.getElementById("display-data");

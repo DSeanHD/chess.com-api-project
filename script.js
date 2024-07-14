@@ -76,7 +76,7 @@ const chessCall = async () => {
 
         displayData.innerHTML = `
             <img src="${data.avatar}" alt="${userInput.value}'s Avatar">
-            <h2>Name: ${titleHtml} ${data.name}</h2>
+            <h2>Name: ${titleHtml} ${data.name == undefined ? "" : data.name}</h2>
             <h3>Username: ${data.username}</h3>
             <p><b>Followers:</b> ${data.followers}</p>
             <p><b>Country:</b> ${dataCountry.name}</p>

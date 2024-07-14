@@ -138,3 +138,50 @@ h2 {
 .rapid > *, .blitz > *, .bullet > * {
     margin-bottom: 16px;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+    h1 {
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    #puzzle-container h1 {
+        font-size: 1.6em;
+    }
+
+    #puzzle-container h2 {
+        font-size: 1.4em;
+    }
+
+    #puzzle-container {
+        width: 90%;
+    }
+
+    #display-daily-puzzle {
+        text-align: center;
+    }
+
+    #display-daily-puzzle a img {
+        width: 80%;
+    }
+
+    #search-area {
+        width: 90%;
+    }
+
+    #search input {
+        width: 20%;
+    }
+
+    #search input:focus {
+        width: 60%;
+    }
+
+    #display-data div {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

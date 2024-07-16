@@ -10,13 +10,13 @@ greeting.innerText = timeOfDay;
 console.log(greeting.innerText);
 
 if (timeOfDay >= 0 && timeOfDay < 5) {
-    greeting.innerText = "Good Night!🌃 Here's today's puzzle for you";
+    greeting.innerText = "Good Night🌃";
 } else if (timeOfDay >= 5 && timeOfDay < 12) {
-    greeting.innerText = "Good Morning!☀️ Here's today's puzzle for you";
+    greeting.innerText = "Good Morning☀️";
 } else if (timeOfDay >= 12 && timeOfDay < 19) {
-    greeting.innerText = "Good Afternoon! Here's today's puzzle for you";
+    greeting.innerText = "Good Afternoon";
 } else {
-    greeting.innerText = "Good Evening! Here's today's puzzle for you";
+    greeting.innerText = "Good Evening";
 }
 
 const chessCall = async () => {

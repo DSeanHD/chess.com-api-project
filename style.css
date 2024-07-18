@@ -23,26 +23,20 @@ h2 {
     margin-bottom: 3vh;
 }
 
-/*Greeting*/
-
-#greeting {
-    text-align: center;
-    background-color: gold;
-}
-
 /*Puzzle Container*/
 
 #puzzle-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #5C2C00;
+    background-color: #522700;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #FBF3E4;
+    color: #F6E2BB;
 }
 
 #display-daily-puzzle {
@@ -66,9 +60,7 @@ h2 {
     background-color: #174700;
     min-height: 500px;
     width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    margin: 30px auto 30px auto;
     padding-top: 20px;
     padding-bottom: 20px;
     color: white;

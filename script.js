@@ -2,22 +2,6 @@ const userInput = document.getElementById("search-input");
 const searchBtn = document.getElementById("search-btn");
 const displayData = document.getElementById("display-data");
 const displayDailyPuzzle = document.getElementById("display-daily-puzzle");
-const greeting = document.getElementById("greeting");
-
-timeOfDay = new Date().getHours();
-
-greeting.innerText = timeOfDay;
-console.log(greeting.innerText);
-
-if (timeOfDay >= 0 && timeOfDay < 5) {
-    greeting.innerText = "Good Night🌃";
-} else if (timeOfDay >= 5 && timeOfDay < 12) {
-    greeting.innerText = "Good Morning☀️";
-} else if (timeOfDay >= 12 && timeOfDay < 19) {
-    greeting.innerText = "Good Afternoon";
-} else {
-    greeting.innerText = "Good Evening";
-}
 
 const chessCall = async () => {
     if (userInput.value === "") {

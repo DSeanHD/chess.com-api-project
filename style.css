@@ -177,6 +177,7 @@ h2 {
 
     #puzzle-container {
         width: 90%;
+        padding: 20px;
     }
 
     #display-daily-puzzle {
@@ -187,8 +188,13 @@ h2 {
         width: 80%;
     }
 
+    #display-daily-puzzle p {
+        font-size: 15px;
+    }
+
     #search-area {
         width: 90%;
+        padding: 20px;
     }
 
     #search input {
@@ -199,8 +205,16 @@ h2 {
         width: 60%;
     }
 
+    #display-data p a {
+        font-size: 13px;
+    }
+
+    #display-data h2 {
+        font-size: 21px;
+    }
+
     #display-data div {
-        width: 80%;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
     }
